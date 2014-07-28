@@ -7,15 +7,57 @@
 //
 
 #import "AppDelegate.h"
+#import "KalViewController.h"
+#import "NSDate+Convenience.h"
+
+@interface AppDelegate ()
+{
+    UINavigationController *_navController;
+}
+
+@property (nonatomic, strong) KalViewController* kalViewController;
+
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    self.kalViewController = [[KalViewController alloc] initWithSelectionMode: KalSelectionModeSingle];
+    self.kalViewController.selectedDate = [NSDate dateStartOfDay:[[NSDate date] offsetDay:1]];
+    self.kalViewController.beginDate = [NSDate dateFromString:@"2014-07-01"];
+    self.kalViewController.endDate = [NSDate dateFromString:@"2014-08-01"];
+    [_kalViewController showAndSelectDate:[NSDate date]];
+    self.kalViewController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Today", @"")
+                                                                                                style:UIBarButtonItemStyleBordered
+                                                                                               target:self
+                                                                                               action:@selector(onTodayBtnTap:)];
+    
+    self.kalViewController.title = @"NativeCal";
+    
+//    [self presentViewController:self.kalViewController animated:NO completion:nil];
+    
+    self.kalViewController.viewMode = eMonthView;
+    
+    _navController = [[UINavigationController alloc] initWithRootViewController:self.kalViewController];
+    _window.rootViewController = _navController;
+    [_window makeKeyAndVisible];
+
+    
     return YES;
 }
-							
+
+- (void) onTodayBtnTap: (id) sender{
+    
+    int mode = (int)self.kalViewController.viewMode;
+    
+    mode++;
+    if(mode == eKalViewMode_MAX)
+        mode = eKalViewMode_MIN + 1;
+    
+    self.kalViewController.viewMode = (eKalViewMode)mode;
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

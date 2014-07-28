@@ -166,6 +166,10 @@ static const CGFloat kMonthLabelHeight = 17.f;
 }
 
 - (void) setViewMode:(eKalViewMode)viewMode{
+
+    if(_viewMode == viewMode)
+        return;
+    
     _viewMode = viewMode;
     
     switch (_viewMode) {
@@ -188,12 +192,22 @@ static const CGFloat kMonthLabelHeight = 17.f;
             [self.headerView hideByHeight:YES];
             [self.gridView hideByHeight:YES];
             [self.weekView hideByHeight:YES];
-
+            
         }
             break;
         default:
             break;
     }
+
+    if(_animateModeSwitching){
+        [UIView animateWithDuration:0.3f
+                         animations:^{
+                             
+                             [self layoutIfNeeded];
+                             
+                         }];
+    }
+    
 }
 
 - (void) setUpConstraints
@@ -211,7 +225,7 @@ static const CGFloat kMonthLabelHeight = 17.f;
                             @"contentView"   : self.contentView
                             };
     
-    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat: @"V:|-[headerView]-0-[contentView]-0-|"
+    [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat: @"V:|-0-[headerView]-0-[contentView]-0-|"
                                                                  options: NSLayoutFormatAlignAllCenterX
                                                                  metrics: nil
                                                                    views: views]];

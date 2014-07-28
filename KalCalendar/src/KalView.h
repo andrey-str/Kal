@@ -42,9 +42,11 @@
  */
 
 typedef enum {
+    eKalViewMode_MIN = 0,
     eMonthView,
     eWeekView,
-    eDaysView
+    eDaysView,
+    eKalViewMode_MAX
 } eKalViewMode;
 
 @interface KalView : UIView
@@ -58,6 +60,7 @@ typedef enum {
 @property (nonatomic, strong) KalWeekStripView * weekView;
 @property (nonatomic, strong) KalGridView *gridView;
 @property (nonatomic, assign) eKalViewMode viewMode;
+@property (nonatomic, assign) BOOL animateModeSwitching;
 
 - (id)initWithFrame:(CGRect)frame delegate:(id<KalViewDelegate>)delegate logic:(KalLogic *)logic;
 - (BOOL)isSliding;
