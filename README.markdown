@@ -1,3 +1,7 @@
+Updated by Andrey Streltsov on 2014-07-26
+-----------------------------
+* integrated DIDatePicker(https://github.com/noxt/DIDatepicker) component as week view. DIDatePicker classes were renamed to fit Kal project namings
+
 Updated by Leon on 2013-12-27
 -----------------------------
 

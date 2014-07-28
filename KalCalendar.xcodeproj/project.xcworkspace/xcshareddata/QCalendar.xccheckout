@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>00D5C399-622E-4273-B7FC-DF821400177D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QCalendar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>358F7546-4AB5-4C07-A931-5C4446C656EE</key>
+		<string>https://github.com/andrey-str/Kal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QCalendar.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>358F7546-4AB5-4C07-A931-5C4446C656EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andrey-str/Kal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>358F7546-4AB5-4C07-A931-5C4446C656EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>358F7546-4AB5-4C07-A931-5C4446C656EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KalCalendar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

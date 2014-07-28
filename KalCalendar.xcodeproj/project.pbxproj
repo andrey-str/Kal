@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559C0FF519866079000C5BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559C0FF419866079000C5BC4 /* Foundation.framework */; };
+		559C101F198660C3000C5BC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559C0FF419866079000C5BC4 /* Foundation.framework */; };
+		559C1021198660C3000C5BC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559C1020198660C3000C5BC4 /* CoreGraphics.framework */; };
+		559C1022198660C3000C5BC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559C100519866079000C5BC4 /* UIKit.framework */; };
+		559C108B1986614B000C5BC4 /* libKalCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559C0FF119866079000C5BC4 /* libKalCalendar.a */; };
+		559C10B11986980D000C5BC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10AD1986980D000C5BC4 /* AppDelegate.m */; };
+		559C10B21986980D000C5BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10AE1986980D000C5BC4 /* main.m */; };
+		559C10B31986980D000C5BC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10B01986980D000C5BC4 /* ViewController.m */; };
+		559C10BD19869814000C5BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559C10B519869814000C5BC4 /* Main.storyboard */; };
+		559C10BE19869814000C5BC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 559C10B819869814000C5BC4 /* InfoPlist.strings */; };
+		559C10BF19869814000C5BC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559C10BA19869814000C5BC4 /* Images.xcassets */; };
+		559C10C91986982F000C5BC4 /* NSDate+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10C21986982F000C5BC4 /* NSDate+Convenience.m */; };
+		559C10CA1986982F000C5BC4 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10C41986982F000C5BC4 /* NSDateAdditions.m */; };
+		559C10CB1986982F000C5BC4 /* UIView+UpdateAutoLayoutConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10C61986982F000C5BC4 /* UIView+UpdateAutoLayoutConstraints.m */; };
+		559C10CC1986982F000C5BC4 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10C81986982F000C5BC4 /* UIViewAdditions.m */; };
+		559C10D11986983F000C5BC4 /* KalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10D01986983F000C5BC4 /* KalViewController.m */; };
+		559C10DC19869855000C5BC4 /* KalGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10D319869855000C5BC4 /* KalGridView.m */; };
+		559C10DD19869855000C5BC4 /* KalMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10D519869855000C5BC4 /* KalMonthView.m */; };
+		559C10DE19869855000C5BC4 /* KalTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10D719869855000C5BC4 /* KalTileView.m */; };
+		559C10DF19869855000C5BC4 /* KalWeekDateTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10D919869855000C5BC4 /* KalWeekDateTileView.m */; };
+		559C10E019869855000C5BC4 /* KalWeekStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10DB19869855000C5BC4 /* KalWeekStripView.m */; };
+		559C10E519869862000C5BC4 /* KalDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10E219869862000C5BC4 /* KalDataSource.m */; };
+		559C10E619869862000C5BC4 /* KalLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10E419869862000C5BC4 /* KalLogic.m */; };
+		559C10EC1986995E000C5BC4 /* KalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10EB1986995E000C5BC4 /* KalView.m */; };
+		559C10EF1986998F000C5BC4 /* KalCalendarPreview-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 559C10ED1986998F000C5BC4 /* KalCalendarPreview-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559C108919866147000C5BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559C0FE919866079000C5BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559C0FF019866079000C5BC4;
+			remoteInfo = QCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		559C0FEF19866079000C5BC4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		559C0FF119866079000C5BC4 /* libKalCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKalCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C0FF419866079000C5BC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		559C100219866079000C5BC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		559C100519866079000C5BC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		559C101E198660C3000C5BC4 /* KalCalendarPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalCalendarPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C1020198660C3000C5BC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		559C10AC1986980D000C5BC4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KalCalendarPreview/AppDelegate.h; sourceTree = "<group>"; };
+		559C10AD1986980D000C5BC4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KalCalendarPreview/AppDelegate.m; sourceTree = "<group>"; };
+		559C10AE1986980D000C5BC4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KalCalendarPreview/main.m; sourceTree = "<group>"; };
+		559C10AF1986980D000C5BC4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = KalCalendarPreview/ViewController.h; sourceTree = "<group>"; };
+		559C10B01986980D000C5BC4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = KalCalendarPreview/ViewController.m; sourceTree = "<group>"; };
+		559C10B619869814000C5BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		559C10B919869814000C5BC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		559C10BA19869814000C5BC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "KalCalendarPreview/Supporting Files/Images.xcassets"; sourceTree = "<group>"; };
+		559C10C11986982F000C5BC4 /* NSDate+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Convenience.h"; path = "KalCalendar/Extensions/NSDate+Convenience.h"; sourceTree = SOURCE_ROOT; };
+		559C10C21986982F000C5BC4 /* NSDate+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Convenience.m"; path = "KalCalendar/Extensions/NSDate+Convenience.m"; sourceTree = SOURCE_ROOT; };
+		559C10C31986982F000C5BC4 /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDateAdditions.h; path = KalCalendar/Extensions/NSDateAdditions.h; sourceTree = SOURCE_ROOT; };
+		559C10C41986982F000C5BC4 /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDateAdditions.m; path = KalCalendar/Extensions/NSDateAdditions.m; sourceTree = SOURCE_ROOT; };
+		559C10C51986982F000C5BC4 /* UIView+UpdateAutoLayoutConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+UpdateAutoLayoutConstraints.h"; path = "KalCalendar/Extensions/UIView+UpdateAutoLayoutConstraints.h"; sourceTree = SOURCE_ROOT; };
+		559C10C61986982F000C5BC4 /* UIView+UpdateAutoLayoutConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+UpdateAutoLayoutConstraints.m"; path = "KalCalendar/Extensions/UIView+UpdateAutoLayoutConstraints.m"; sourceTree = SOURCE_ROOT; };
+		559C10C71986982F000C5BC4 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewAdditions.h; path = KalCalendar/Extensions/UIViewAdditions.h; sourceTree = SOURCE_ROOT; };
+		559C10C81986982F000C5BC4 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewAdditions.m; path = KalCalendar/Extensions/UIViewAdditions.m; sourceTree = SOURCE_ROOT; };
+		559C10CD1986983F000C5BC4 /* Kal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Kal.h; path = KalCalendar/src/Kal.h; sourceTree = SOURCE_ROOT; };
+		559C10CE1986983F000C5BC4 /* KalPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalPrivate.h; path = KalCalendar/src/KalPrivate.h; sourceTree = SOURCE_ROOT; };
+		559C10CF1986983F000C5BC4 /* KalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalViewController.h; path = KalCalendar/src/KalViewController.h; sourceTree = SOURCE_ROOT; };
+		559C10D01986983F000C5BC4 /* KalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalViewController.m; path = KalCalendar/src/KalViewController.m; sourceTree = SOURCE_ROOT; };
+		559C10D219869855000C5BC4 /* KalGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalGridView.h; path = KalCalendar/src/KalGridView.h; sourceTree = SOURCE_ROOT; };
+		559C10D319869855000C5BC4 /* KalGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalGridView.m; path = KalCalendar/src/KalGridView.m; sourceTree = SOURCE_ROOT; };
+		559C10D419869855000C5BC4 /* KalMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalMonthView.h; path = KalCalendar/src/KalMonthView.h; sourceTree = SOURCE_ROOT; };
+		559C10D519869855000C5BC4 /* KalMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalMonthView.m; path = KalCalendar/src/KalMonthView.m; sourceTree = SOURCE_ROOT; };
+		559C10D619869855000C5BC4 /* KalTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalTileView.h; path = KalCalendar/src/KalTileView.h; sourceTree = SOURCE_ROOT; };
+		559C10D719869855000C5BC4 /* KalTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalTileView.m; path = KalCalendar/src/KalTileView.m; sourceTree = SOURCE_ROOT; };
+		559C10D819869855000C5BC4 /* KalWeekDateTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalWeekDateTileView.h; path = KalCalendar/src/KalWeekDateTileView.h; sourceTree = SOURCE_ROOT; };
+		559C10D919869855000C5BC4 /* KalWeekDateTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalWeekDateTileView.m; path = KalCalendar/src/KalWeekDateTileView.m; sourceTree = SOURCE_ROOT; };
+		559C10DA19869855000C5BC4 /* KalWeekStripView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalWeekStripView.h; path = KalCalendar/src/KalWeekStripView.h; sourceTree = SOURCE_ROOT; };
+		559C10DB19869855000C5BC4 /* KalWeekStripView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalWeekStripView.m; path = KalCalendar/src/KalWeekStripView.m; sourceTree = SOURCE_ROOT; };
+		559C10E119869862000C5BC4 /* KalDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalDataSource.h; path = KalCalendar/src/KalDataSource.h; sourceTree = SOURCE_ROOT; };
+		559C10E219869862000C5BC4 /* KalDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalDataSource.m; path = KalCalendar/src/KalDataSource.m; sourceTree = SOURCE_ROOT; };
+		559C10E319869862000C5BC4 /* KalLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalLogic.h; path = KalCalendar/src/KalLogic.h; sourceTree = SOURCE_ROOT; };
+		559C10E419869862000C5BC4 /* KalLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalLogic.m; path = KalCalendar/src/KalLogic.m; sourceTree = SOURCE_ROOT; };
+		559C10E81986987D000C5BC4 /* Kal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Kal.bundle; path = "KalCalendar/Supporting Files/Kal.bundle"; sourceTree = SOURCE_ROOT; };
+		559C10E9198698FF000C5BC4 /* KalCalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "KalCalendar-Prefix.pch"; path = "KalCalendar/KalCalendar-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		559C10EA1986995E000C5BC4 /* KalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KalView.h; path = KalCalendar/src/KalView.h; sourceTree = SOURCE_ROOT; };
+		559C10EB1986995E000C5BC4 /* KalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KalView.m; path = KalCalendar/src/KalView.m; sourceTree = SOURCE_ROOT; };
+		559C10ED1986998F000C5BC4 /* KalCalendarPreview-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "KalCalendarPreview-Info.plist"; path = "KalCalendarPreview/KalCalendarPreview-Info.plist"; sourceTree = "<group>"; };
+		559C10EE1986998F000C5BC4 /* KalCalendarPreview-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KalCalendarPreview-Prefix.pch"; path = "KalCalendarPreview/KalCalendarPreview-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559C0FEE19866079000C5BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C0FF519866079000C5BC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C101B198660C3000C5BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C108B1986614B000C5BC4 /* libKalCalendar.a in Frameworks */,
+				559C1021198660C3000C5BC4 /* CoreGraphics.framework in Frameworks */,
+				559C1022198660C3000C5BC4 /* UIKit.framework in Frameworks */,
+				559C101F198660C3000C5BC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559C0FE819866079000C5BC4 = {
+			isa = PBXGroup;
+			children = (
+				559C104F198660E4000C5BC4 /* KalCalendarPreview */,
+				559C0FF619866079000C5BC4 /* KalCalendar */,
+				559C0FF319866079000C5BC4 /* Frameworks */,
+				559C0FF219866079000C5BC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559C0FF219866079000C5BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559C0FF119866079000C5BC4 /* libKalCalendar.a */,
+				559C101E198660C3000C5BC4 /* KalCalendarPreview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559C0FF319866079000C5BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559C0FF419866079000C5BC4 /* Foundation.framework */,
+				559C100219866079000C5BC4 /* XCTest.framework */,
+				559C100519866079000C5BC4 /* UIKit.framework */,
+				559C1020198660C3000C5BC4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		559C0FF619866079000C5BC4 /* KalCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				559C10A0198662F1000C5BC4 /* Extensions */,
+				559C105E19866133000C5BC4 /* KalCalendar */,
+				559C0FF719866079000C5BC4 /* Supporting Files */,
+			);
+			name = KalCalendar;
+			path = QCalendar;
+			sourceTree = "<group>";
+		};
+		559C0FF719866079000C5BC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559C10E9198698FF000C5BC4 /* KalCalendar-Prefix.pch */,
+				559C10E81986987D000C5BC4 /* Kal.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559C104F198660E4000C5BC4 /* KalCalendarPreview */ = {
+			isa = PBXGroup;
+			children = (
+				559C10AC1986980D000C5BC4 /* AppDelegate.h */,
+				559C10AD1986980D000C5BC4 /* AppDelegate.m */,
+				559C10AE1986980D000C5BC4 /* main.m */,
+				559C10AF1986980D000C5BC4 /* ViewController.h */,
+				559C10B01986980D000C5BC4 /* ViewController.m */,
+				559C105019866107000C5BC4 /* Supporting Files */,
+			);
+			name = KalCalendarPreview;
+			sourceTree = "<group>";
+		};
+		559C105019866107000C5BC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559C10B419869814000C5BC4 /* Base.lproj */,
+				559C10B719869814000C5BC4 /* en.lproj */,
+				559C10BA19869814000C5BC4 /* Images.xcassets */,
+				559C10ED1986998F000C5BC4 /* KalCalendarPreview-Info.plist */,
+				559C10EE1986998F000C5BC4 /* KalCalendarPreview-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559C105E19866133000C5BC4 /* KalCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				559C10CD1986983F000C5BC4 /* Kal.h */,
+				559C10CE1986983F000C5BC4 /* KalPrivate.h */,
+				559C10CF1986983F000C5BC4 /* KalViewController.h */,
+				559C10D01986983F000C5BC4 /* KalViewController.m */,
+				559C10A119866305000C5BC4 /* Datasource & Logic */,
+				559C10A219866318000C5BC4 /* Views */,
+			);
+			path = KalCalendar;
+			sourceTree = "<group>";
+		};
+		559C10A0198662F1000C5BC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				559C10C11986982F000C5BC4 /* NSDate+Convenience.h */,
+				559C10C21986982F000C5BC4 /* NSDate+Convenience.m */,
+				559C10C31986982F000C5BC4 /* NSDateAdditions.h */,
+				559C10C41986982F000C5BC4 /* NSDateAdditions.m */,
+				559C10C51986982F000C5BC4 /* UIView+UpdateAutoLayoutConstraints.h */,
+				559C10C61986982F000C5BC4 /* UIView+UpdateAutoLayoutConstraints.m */,
+				559C10C71986982F000C5BC4 /* UIViewAdditions.h */,
+				559C10C81986982F000C5BC4 /* UIViewAdditions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		559C10A119866305000C5BC4 /* Datasource & Logic */ = {
+			isa = PBXGroup;
+			children = (
+				559C10E119869862000C5BC4 /* KalDataSource.h */,
+				559C10E219869862000C5BC4 /* KalDataSource.m */,
+				559C10E319869862000C5BC4 /* KalLogic.h */,
+				559C10E419869862000C5BC4 /* KalLogic.m */,
+			);
+			name = "Datasource & Logic";
+			sourceTree = "<group>";
+		};
+		559C10A219866318000C5BC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				559C10D219869855000C5BC4 /* KalGridView.h */,
+				559C10D319869855000C5BC4 /* KalGridView.m */,
+				559C10D419869855000C5BC4 /* KalMonthView.h */,
+				559C10D519869855000C5BC4 /* KalMonthView.m */,
+				559C10D619869855000C5BC4 /* KalTileView.h */,
+				559C10D719869855000C5BC4 /* KalTileView.m */,
+				559C10EA1986995E000C5BC4 /* KalView.h */,
+				559C10EB1986995E000C5BC4 /* KalView.m */,
+				559C10D819869855000C5BC4 /* KalWeekDateTileView.h */,
+				559C10D919869855000C5BC4 /* KalWeekDateTileView.m */,
+				559C10DA19869855000C5BC4 /* KalWeekStripView.h */,
+				559C10DB19869855000C5BC4 /* KalWeekStripView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		559C10B419869814000C5BC4 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				559C10B519869814000C5BC4 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = "KalCalendarPreview/Supporting Files/Base.lproj";
+			sourceTree = "<group>";
+		};
+		559C10B719869814000C5BC4 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				559C10B819869814000C5BC4 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = "KalCalendarPreview/Supporting Files/en.lproj";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559C0FF019866079000C5BC4 /* KalCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C101419866079000C5BC4 /* Build configuration list for PBXNativeTarget "KalCalendar" */;
+			buildPhases = (
+				559C0FED19866079000C5BC4 /* Sources */,
+				559C0FEE19866079000C5BC4 /* Frameworks */,
+				559C0FEF19866079000C5BC4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KalCalendar;
+			productName = QCalendar;
+			productReference = 559C0FF119866079000C5BC4 /* libKalCalendar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		559C101D198660C3000C5BC4 /* KalCalendarPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C1049198660C3000C5BC4 /* Build configuration list for PBXNativeTarget "KalCalendarPreview" */;
+			buildPhases = (
+				559C101A198660C3000C5BC4 /* Sources */,
+				559C101B198660C3000C5BC4 /* Frameworks */,
+				559C101C198660C3000C5BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559C108A19866147000C5BC4 /* PBXTargetDependency */,
+			);
+			name = KalCalendarPreview;
+			productName = QCalendarPreview;
+			productReference = 559C101E198660C3000C5BC4 /* KalCalendarPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559C0FE919866079000C5BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ScopicSoftware;
+			};
+			buildConfigurationList = 559C0FEC19866079000C5BC4 /* Build configuration list for PBXProject "KalCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559C0FE819866079000C5BC4;
+			productRefGroup = 559C0FF219866079000C5BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559C0FF019866079000C5BC4 /* KalCalendar */,
+				559C101D198660C3000C5BC4 /* KalCalendarPreview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559C101C198660C3000C5BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C10EF1986998F000C5BC4 /* KalCalendarPreview-Info.plist in Resources */,
+				559C10BF19869814000C5BC4 /* Images.xcassets in Resources */,
+				559C10BE19869814000C5BC4 /* InfoPlist.strings in Resources */,
+				559C10BD19869814000C5BC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559C0FED19866079000C5BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C10DC19869855000C5BC4 /* KalGridView.m in Sources */,
+				559C10E019869855000C5BC4 /* KalWeekStripView.m in Sources */,
+				559C10DF19869855000C5BC4 /* KalWeekDateTileView.m in Sources */,
+				559C10E619869862000C5BC4 /* KalLogic.m in Sources */,
+				559C10DD19869855000C5BC4 /* KalMonthView.m in Sources */,
+				559C10EC1986995E000C5BC4 /* KalView.m in Sources */,
+				559C10E519869862000C5BC4 /* KalDataSource.m in Sources */,
+				559C10D11986983F000C5BC4 /* KalViewController.m in Sources */,
+				559C10C91986982F000C5BC4 /* NSDate+Convenience.m in Sources */,
+				559C10CA1986982F000C5BC4 /* NSDateAdditions.m in Sources */,
+				559C10CC1986982F000C5BC4 /* UIViewAdditions.m in Sources */,
+				559C10CB1986982F000C5BC4 /* UIView+UpdateAutoLayoutConstraints.m in Sources */,
+				559C10DE19869855000C5BC4 /* KalTileView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C101A198660C3000C5BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C10B31986980D000C5BC4 /* ViewController.m in Sources */,
+				559C10B21986980D000C5BC4 /* main.m in Sources */,
+				559C10B11986980D000C5BC4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559C108A19866147000C5BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559C0FF019866079000C5BC4 /* KalCalendar */;
+			targetProxy = 559C108919866147000C5BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559C10B519869814000C5BC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559C10B619869814000C5BC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		559C10B819869814000C5BC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559C10B919869814000C5BC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559C101219866079000C5BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		559C101319866079000C5BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559C101519866079000C5BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KalCalendar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KalCalendar/KalCalendar-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KalCalendar;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		559C101619866079000C5BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KalCalendar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KalCalendar/KalCalendar-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KalCalendar;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		559C104A198660C3000C5BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KalCalendarPreview/KalCalendarPreview-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KalCalendarPreview/KalCalendarPreview-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KalCalendarPreview;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		559C104B198660C3000C5BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KalCalendarPreview/KalCalendarPreview-Prefix.pch";
+				INFOPLIST_FILE = "KalCalendarPreview/KalCalendarPreview-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KalCalendarPreview;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559C0FEC19866079000C5BC4 /* Build configuration list for PBXProject "KalCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C101219866079000C5BC4 /* Debug */,
+				559C101319866079000C5BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559C101419866079000C5BC4 /* Build configuration list for PBXNativeTarget "KalCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C101519866079000C5BC4 /* Debug */,
+				559C101619866079000C5BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559C1049198660C3000C5BC4 /* Build configuration list for PBXNativeTarget "KalCalendarPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C104A198660C3000C5BC4 /* Debug */,
+				559C104B198660C3000C5BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559C0FE919866079000C5BC4 /* Project object */;
+}
