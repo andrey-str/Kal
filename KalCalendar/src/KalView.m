@@ -169,7 +169,7 @@ static const CGFloat kMonthLabelHeight = 17.f;
     _viewMode = viewMode;
     
     switch (_viewMode) {
-        case eMothView:
+        case eMonthView:
         {
             [self.headerView hideByHeight:NO];
             [self.gridView hideByHeight:NO];

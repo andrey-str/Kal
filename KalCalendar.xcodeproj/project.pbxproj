@@ -32,6 +32,7 @@
 		559C10E619869862000C5BC4 /* KalLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10E419869862000C5BC4 /* KalLogic.m */; };
 		559C10EC1986995E000C5BC4 /* KalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559C10EB1986995E000C5BC4 /* KalView.m */; };
 		559C10EF1986998F000C5BC4 /* KalCalendarPreview-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 559C10ED1986998F000C5BC4 /* KalCalendarPreview-Info.plist */; };
+		559C10F119869C4F000C5BC4 /* Kal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 559C10E81986987D000C5BC4 /* Kal.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -350,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559C10F119869C4F000C5BC4 /* Kal.bundle in Resources */,
 				559C10EF1986998F000C5BC4 /* KalCalendarPreview-Info.plist in Resources */,
 				559C10BF19869814000C5BC4 /* Images.xcassets in Resources */,
 				559C10BE19869814000C5BC4 /* InfoPlist.strings in Resources */,

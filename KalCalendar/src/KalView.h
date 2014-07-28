@@ -42,7 +42,7 @@
  */
 
 typedef enum {
-    eMothView,
+    eMonthView,
     eWeekView,
     eDaysView
 } eKalViewMode;

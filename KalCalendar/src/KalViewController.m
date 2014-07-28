@@ -224,7 +224,6 @@ NSString *const KalDataSourceChangedNotification = @"KalDataSourceChangedNotific
     
     [kalView setUpConstraints];
     
-    kalView.viewMode = eDaysView;
     [self reloadData];
 }
 
@@ -262,4 +261,12 @@ NSString *const KalDataSourceChangedNotification = @"KalDataSourceChangedNotific
     [[NSNotificationCenter defaultCenter] removeObserver:self name:KalDataSourceChangedNotification object:nil];
 }
 
+- (void) setViewMode:(eKalViewMode)viewMode
+{
+    ((KalView*)self.view).viewMode = viewMode;
+}
+
+- (eKalViewMode) viewMode{
+    return ((KalView*)self.view).viewMode;
+}
 @end
